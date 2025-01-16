@@ -1,0 +1,90 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    animation: backgroundImage 20s infinite;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes backgroundImage {
+    0% {background-image: url('https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');}
+    25% {background-image: url('https://plus.unsplash.com/premium_photo-1663047540698-12e93c082dda?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');}
+    50% {background-image: url('https://images.unsplash.com/photo-1528722828814-77b9b83aafb2?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');}
+    75% {background-image: url('https://images.unsplash.com/photo-1538370965046-79c0d6907d47?q=80&w=1769&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');}
+    100% {background-image: url('https://images.unsplash.com/photo-1518066000714-58c45f1a2c0a?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');}
+}
+
+form {
+    width: 600px; 
+    margin: 0 auto; 
+    max-height: 90vh; 
+    overflow-y: auto; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    margin-top: 25px;
+}
+
+.form-group {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.form-group label {
+    width: 200px; 
+    margin-right: 10px; 
+    color: white;
+}
+
+.form-group input {
+    flex: 1; 
+    padding: 8px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    color: white;
+    background: transparent;
+}
+.form-header {
+    color: white;
+}
+.submit-button {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: 200px;
+}
+.submit-button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+.back-button {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+.back-button:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
